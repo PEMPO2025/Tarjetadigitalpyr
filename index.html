@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repuestos y Lubricantes P&R</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Roboto', sans-serif; 
+            background-color: #121212; 
+            color: white; 
+            text-align: center; 
+            margin: 0;
+            padding: 20px; 
+        }
+        .card { 
+            background: linear-gradient(145deg, #1e1e1e, #2a2a2a);
+            border-radius: 25px; 
+            padding: 30px; 
+            max-width: 450px; 
+            margin: auto; 
+            border: 3px solid #ed1c24; 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.7); 
+        }
+        .logo { 
+            width: 220px; 
+            height: auto;
+            margin-bottom: 15px; 
+            filter: drop-shadow(0 5px 15px rgba(0,0,0,0.5));
+        }
+        h1 { 
+            font-family: 'Oswald', sans-serif;
+            color: #fcee21; 
+            font-size: 28px; 
+            text-transform: uppercase; 
+            margin: 10px 0;
+        }
+        .slogan {
+            font-style: italic;
+            color: #ffffff;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .services { 
+            text-align: left; 
+            display: inline-block; 
+            margin: 10px 0 25px 0; 
+            background: rgba(255,255,255,0.05);
+            padding: 15px;
+            border-radius: 15px;
+            width: 85%;
+        }
+        .services li { list-style: none; margin-bottom: 8px; font-size: 18px; font-weight: bold; }
+        .services li::before { content: "✔️ "; color: #ed1c24; }
+
+        .btn { 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white; 
+            text-decoration: none; 
+            padding: 16px; 
+            margin: 12px 0; 
+            border-radius: 12px; 
+            font-weight: bold; 
+            font-size: 18px;
+            transition: 0.3s; 
+        }
+        .btn-ws { background-color: #25d366; }
+        .btn-call { background-color: #ed1c24; }
+        .btn-maps { background-color: #4285f4; }
+        
+        .btn:hover { transform: translateY(-3px); opacity: 0.9; }
+
+        .footer { 
+            font-size: 14px; 
+            margin-top: 25px; 
+            color: #ccc; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="logo-pr.jpg" alt="Logo Repuestos P&R" class="logo">
+        
+        <p class="slogan">"En precios y servicios... ¡Lo Máximo!"</p>
+        <h1>¡LAS MEJORES GOMAS ESTÁN AQUÍ!</h1>
+
+        <ul class="services">
+            <li>Neumáticos Michelin</li>
+            <li>Lubricantes</li>
+            <li>Baterías</li>
+            <li>Filtros y Aceites</li>
+            <li>Accesorios</li>
+        </ul>
+
+        <a href="https://wa.me/18095270381?text=Hola%20P&R,%20me%20interesan%20las%20gomas%20Michelin" class="btn btn-ws" target="_blank">
+            📱 WhatsApp: 809-527-0381
+        </a>
+
+        <a href="tel:8095270381" class="btn btn-call">
+            📞 Llamar ahora
+        </a>
+
+        <a href="https://www.google.com/maps/search/?api=1&query=Repuestos+y+Lubricantes+P%26R+Comendador" class="btn btn-maps" target="_blank">
+            📍 Cómo llegar (GPS)
+        </a>
+
+        <div class="footer">
+            <strong>📍 Dirección:</strong><br>
+            Calle Santa Teresa No. 19, Comendador, Elías Piña.<br>
+            <br>
+            <strong>Repuestos y Lubricantes P&R</strong>
+        </div>
+    </div>
+
+</body>
+</html>
